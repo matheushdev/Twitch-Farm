@@ -1,0 +1,15 @@
+.btn-on {
+    color: green;
+    font-size: 1.8vh;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn-off {
+    color: red;
+    font-size: 1.8vh;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch auto farm",
+    "version": "1.0",
+    "description": "Extensão para farmar as boxs de recompensas de pontos da Twitch no seu streamer preferido. =)",
+    "author": "m4theus.dev",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "zapzap"
+    },
+    "background": {
+        "scripts": ["app.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.twitch.tv/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "app.js"
+            ],
+            "html": [
+                "index.html"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
