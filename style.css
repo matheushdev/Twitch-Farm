@@ -1,15 +1,14 @@
-.btn-on {
+.contBtn-zlDeath {
     color: green;
-    font-size: 1.8vh;
-    font-weight: bold;
+    font-size: 1.5vh;
+    font-weight: 500;
     border: none;
     margin-left: 10px;
 }
 
-.btn-off {
+.contBtn-zlDeath b {
     color: red;
-    font-size: 1.8vh;
-    font-weight: bold;
+    font-size: 1.6vh;
+    font-weight: 600;
     border: none;
-    margin-left: 10px;
 }
