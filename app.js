@@ -16,7 +16,7 @@ async function farmBox() {
             box.click();
             console.log(`[${time}] Recompensa pega. (TOTAL: ${qnt})\n`);
         }
-    }, 5000);
+    }, 60000);
 }
 
 farmBox();
